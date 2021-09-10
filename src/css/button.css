@@ -1,0 +1,16 @@
+.btn{
+  padding: 0;
+
+}
+
+.btn-primary{
+  background-color: var(--accent1);
+  color: var(--font1);
+  border: solid var(--accent1) 1px;
+}
+
+
+.btn-primary:active{
+  background-color: var(--accent1c);
+  border-color: #122b40;
+}

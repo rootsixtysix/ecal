@@ -1,0 +1,42 @@
+/*
+Layout
+*/
+.formContainer{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.formBox{
+  width: 17em;
+}
+.form-group, label, input, textarea{
+  width: 100%
+}
+input{
+  height: 2em;
+}
+.help-block{
+  height: 16px;
+}
+.form-group{
+  margin-bottom: 0.3em;
+}
+.formContainer{
+
+}
+
+/*
+Color
+*/
+.formContainer{
+  background-color: var(--background1);
+}
+input{
+  border: solid var(--font1b) 1px;
+  //border-radius: 0.1em;
+}
+input:focus{
+  border: solid var(--accent1b) 1px;
+}

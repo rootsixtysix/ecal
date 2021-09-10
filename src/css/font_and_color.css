@@ -1,0 +1,75 @@
+:root {
+  --background1: #222;
+  --background1b: #444;
+  --accent1: hsl(168, 100%, 42%);
+  --accent1b: hsla(168, 100%, 42%, 0.85);
+  --accent1c: hsl(168, 100%, 60%);
+  --accent2: hsl(294, 100%, 42%);
+  --accent3: hsl(59, 100%, 42%);
+
+  --font2: hsl(294, 100%, 42%);
+
+  --font1: white;
+  --font1b: #eee;
+  --font1c: #ccc;
+  --font2: hsl(0, 42%, 70%);
+
+}
+/*
+color
+*/
+
+body, main, .view{
+  background-color: var(--background1);
+}
+input, textarea{
+  background-color: inherit;
+}
+
+nav{
+  background-color: var(--accent1);
+}
+
+.eventPreview{
+  background-color: var(--accent1b);
+}
+
+
+/*
+font
+*/
+body, textarea{
+  font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+  color: var(--font1);
+}
+input{
+  //color: var(--accent1);
+  color: inherit;
+  font-size: 1.1em;
+}
+textarea{
+  font-size: 0.95em;
+}
+label{
+  color: var(--font1c);
+  font-weight: bold;
+  font-size: 0.9em;
+}
+a{
+  color: var(--accent1)
+}
+.help-block{
+  color: var(--accent1);
+  font-size: 0.9em;
+}
+
+/*
+Layout
+*/
+
+
+.eventPreview p{
+  margin: 0.2em;
+  padding: 0;
+}
